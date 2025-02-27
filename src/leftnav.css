@@ -1,0 +1,60 @@
+
+.navbar{
+    position: fixed;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+  
+  }
+  .left-links{
+    display: flex;
+    padding: 12px;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .desktop{
+    display: flex ;
+  }
+  
+  body .logo{
+    padding-top: 4px;
+  }
+  
+  a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .tweetBtn{
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    border-radius: 50px;
+    font-weight:bold;
+    background-color: white;
+  }
+
+  
+
+  @media (max-width: 768px) {
+    .hide-on-mobile{
+      display: none;
+    }
+  }
+
+  
+  

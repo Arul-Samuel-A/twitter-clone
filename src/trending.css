@@ -1,0 +1,31 @@
+
+
+.follow-btn{
+    margin-left: auto;
+    background-color: white;
+    color: black;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.suggestions{
+    border: rgba(128, 128, 128, 0.5) 1px solid; /* 50% opacity grey */
+
+}
+
+.trending-column{
+    border: rgba(128, 128, 128, 0.5) 1px solid;
+}
+
+
+
+@media (max-width: 768px) {
+    .suggestions{
+      display: none;
+    }
+    .trending-column{
+        display: none;
+    }
+  }

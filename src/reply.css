@@ -1,0 +1,43 @@
+
+
+.reply-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.reply{
+    border-left: rgba(128, 128, 128, 0.5) 1px solid;
+    border-bottom: rgba(128, 128, 128, 0.5) 1px solid;
+    border-right: rgba(128, 128, 128, 0.5) 1px solid;
+    border-bottom-left-radius : 10px;
+    margin-left: 10px;
+    flex-direction: row;
+    align-items: start;
+    padding: 8px 16px;
+    padding-right: 0;
+    gap: 12px;
+}
+
+.reply-btn{
+    background-color: black;
+    border: white 1px solid;
+}
+
+.reply-btn:hover{
+    background-color: black;
+    color: white;
+
+}
+
+@media (max-width: 768px) {
+    .reply{
+        gap: 8px;
+        padding: 8px 12px;
+    }
+  }
+
+
+
+
+
+

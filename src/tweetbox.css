@@ -1,0 +1,110 @@
+.tweet-box{
+    width: 90%;
+    display: flex;
+    gap: 12px;
+    padding: 8px 16px;
+    border: rgba(128, 128, 128, 0.5) 1px solid;
+
+}
+
+.uploaded-img{
+    width: 100%;
+}
+
+.tweet-btn-sm{
+    font-size: 16px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    border-radius: 20px;
+    font-weight:bold;
+    background-color: white;
+}
+
+
+.addbordertop{
+    border-top: rgba(128, 128, 128, 0.5) 1px solid;
+}
+
+textarea{
+    font-size: 20px;
+    height: auto;
+    outline: none;
+    border: none;
+    min-height: 120px;
+    width: 100%;
+    color: grey;
+    background-color: black;
+}
+
+.tweetbox-img{
+    display: block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.tweet-icon{
+    display: none;
+    position: fixed;
+    right: 0;
+    margin: 16px;
+    top: 85%;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+}
+
+
+@media (max-width: 768px) {
+
+    textarea{
+        font-size: 16px;
+    }
+    .tweet-box{
+        padding: 8px 12px;
+        gap: 4px;
+        max-width: 95%;
+        position: fixed;
+        border: rgba(128, 128, 128, 0.5) 2px solid;
+        border-radius: 12px;
+        inset: 0;
+        margin: auto;
+        height: fit-content;
+        display: none;
+    }
+    .tweetbox-img{
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .tweet-btn-sm{
+        font-size: 16px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 20px;
+        font-weight:600;
+        background-color: white;
+    }
+
+    .tweet-icon{
+        display: flex;
+    }
+
+    .tweet-box-abc{
+        min-height: 100px;
+    }
+  }

@@ -1,0 +1,62 @@
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0;
+  margin: 0;
+}
+p{
+  font-size: 18px;
+}
+
+.interactions > div:not(:last-child):active {
+  transform: scale(1.15);
+}
+
+
+button{
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover{
+  transform: scale(1.05);
+}
+
+button:active{
+  transform: scale(0.95);
+}
+
+.feed-tab-header{
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  button:hover{
+    transform: scale(1);
+  }
+  .feed-tab-header{
+    display: flex;
+    align-self: center;
+  }
+  .suggestions-item{
+    display: none;
+  }
+
+  *{
+    line-height: 1.3;
+  }
+
+  p{
+    font-size: 16px;
+  }
+}
+

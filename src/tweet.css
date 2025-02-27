@@ -1,0 +1,84 @@
+
+.ninety{
+    width: 90%;
+}
+
+.tweet{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 8px 16px;
+    border: rgba(128, 128, 128, 0.5) 1px solid;
+}
+
+.profile-pic{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.interactions{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+.reply-btn{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.reply-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.reply-box{
+    border: rgba(128, 128, 128, 0.5) 1px solid;
+    padding: 8px 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-bottom-left-radius : 16px;
+    border-top-right-radius : 16px;
+    margin-right: 16px;
+}
+
+
+
+
+
+.media{
+    border-radius: 15px;
+    width: 100%;
+    background-size: cover;
+}
+.tweet-img-container{
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .ninety{
+        width: 100%;
+    }
+    .profile-pic{
+        margin-top: 6px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .tweet{
+        gap: 8px;
+        padding: 8px 12px;
+    }
+    .reply-box-ab{
+        min-height: 80px !important;
+        max-height: 100px;
+      }
+  }
