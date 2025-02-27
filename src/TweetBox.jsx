@@ -52,6 +52,9 @@ export function TweetBox() {
 
     return (
         <>
+
+        {showTweetBoxInMobile && <div onClick={toggleTweetBoxInMobile} className="dark-background">
+        </div>}
             
             <div onClick={toggleTweetBoxInMobile} style={{ backgroundColor: "#305CDE",borderRadius:"50%" }} className="tweet-icon p-2 align-items-center justify-content-center">
                 <svg style={{ backgroundColor: "#305CDE" }}  className="d-flex m-1 align-items-center justify-content-center" viewBox="0 0 24 24" width="24" height="24">

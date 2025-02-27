@@ -60,6 +60,15 @@ textarea{
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
 }
 
+.dark-background{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+}
+
 
 @media (max-width: 768px) {
 
@@ -67,6 +76,7 @@ textarea{
         font-size: 16px;
     }
     .tweet-box{
+        z-index: 2;
         padding: 8px 12px;
         gap: 4px;
         max-width: 95%;
