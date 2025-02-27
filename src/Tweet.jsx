@@ -76,9 +76,9 @@ export function Tweet({id}){
             media: [],
             user: {
                 id: 101,
-                username: "arul_samuel",
-                name : "Arul Samuel",
-                url : MyProfile
+                username: "mr_curious",
+                name : "Mr Curious",
+                url : "https://avatarfiles.alphacoders.com/374/thumb-350-374340.webp"
             }
         };
 

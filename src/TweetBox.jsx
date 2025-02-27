@@ -1,5 +1,4 @@
 import "./tweetbox.css";
-import MyProfile from "./assets/my-dp.jpg";
 import { FaImage } from "react-icons/fa";
 import React from "react";
 import { DataContext } from "./FeedTab.jsx";
@@ -39,9 +38,9 @@ export function TweetBox() {
             media: media ? [{ type: "image", url: media }] : [],  
             user: {
                 id: 101,
-                username: "arul_samuel",
-                name: "Arul Samuel",
-                url: MyProfile,
+                username: "mr_curious",
+                name: "Mr Curious",
+                url: "https://avatarfiles.alphacoders.com/374/thumb-350-374340.webp",
             },
         };
         setTweets([inputObject, ...tweets]);
@@ -63,7 +62,7 @@ export function TweetBox() {
             </div>
 
             <div className={`tweet-box pt-3 ${showTweetBoxInMobile ? "d-flex" : "d-none d-md-flex"}`}>
-                <img className="tweetbox-img" src={MyProfile} alt="Profile" />
+                <img className="tweetbox-img" src="https://avatarfiles.alphacoders.com/374/thumb-350-374340.webp" alt="Profile" />
                 <div className="d-flex flex-column w-100">
                     <textarea
                         style={{ color: "white" }}
@@ -79,7 +78,7 @@ export function TweetBox() {
                         placeholder="What's Happening?"
                     ></textarea>
 
-                    {media && <img src={media} alt="Uploaded" className="uploaded-img" />} 
+                    {media && <img src={media} alt="Uploaded" className="uploaded-img mb-md-3 mb-1" />} 
 
                     <div className="addbordertop d-flex align-items-center justify-content-between mx-2 pt-2">
                         <label htmlFor="imageUpload" style={{ cursor: "pointer" }}>

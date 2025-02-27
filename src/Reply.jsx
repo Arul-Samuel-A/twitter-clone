@@ -1,7 +1,6 @@
 import Image from "./assets/pfp.png"
 import "./reply.css"
 import React from "react"
-import ImageTwo from "./assets/my-dp.jpg"
 import "./tweet.css"
 
 export function Reply({ tweet, reply, findId, tweetReply, setTweetReply,likedId }) {
